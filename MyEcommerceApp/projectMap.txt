@@ -1,0 +1,38 @@
+project files and folder explanation:
+
+Program.cs - 
+main app file like index.js in node
+
+MyEcommerceApp.csproj - 
+file that defind 
+all the external libereries of the project
+like package.json of node
+
+appsettings.json - 
+json that contains privete general data of the app
+like secrets keys . like .env file of node
+
+Properties\launchSettings.json - 
+defind app setting like
+witch port the app is running 
+
+Models/ -
+contains all the object - as map to the DB table
+
+Migrations/ -
+contains all the Migrations file (for auto crate DB from my code using EF)
+
+DTOs/ - 
+like Models/ but objects that not match to DB tables
+
+Data/ - 
+DB mangment object
+
+Controllers/ -
+all contoller of the app
+
+Services/ - 
+Services of the app
+
+
+
