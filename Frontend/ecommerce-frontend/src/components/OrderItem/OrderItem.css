@@ -1,0 +1,22 @@
+/* src/components/OrderItem/OrderItem.css */
+
+.order-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px 0;
+    background-color: #fff;
+  }
+  
+  .order-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .order-item p {
+    margin: 4px 0;
+    font-size: 1em;
+    color: #666;
+  }
+  

@@ -1,0 +1,12 @@
+/* src/pages/MyOrdersPage/MyOrdersPage.css */
+
+.my-orders-page {
+    padding: 20px;
+  }
+  
+  .my-orders-page h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+  }
+  

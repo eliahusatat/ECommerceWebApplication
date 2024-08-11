@@ -1,0 +1,81 @@
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #fff;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h2 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 1em;
+  color: #666;
+}
+
+.product-card .price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #009688;
+}
+
+.product-card .stock {
+  font-size: 0.9em;
+  color: #ff5722;
+}
+
+.product-card button {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.btn-edit {
+  background-color: #28a745;
+}
+
+.btn-edit:hover {
+  background-color: #218838;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+
+.btn-default {
+  background-color: #009688;
+}
+
+.btn-default:hover {
+  background-color: #00796b;
+}
+
+.btn-1 {
+  margin-right: 10px;
+}
+
+.btn-2 {
+  margin-left: 10px;
+}

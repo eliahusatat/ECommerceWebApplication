@@ -1,0 +1,48 @@
+/* src/components/Order/Order.css */
+
+.order {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .order-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .order-header p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .order-header button {
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .order-header button:hover {
+    background-color: #00796b;
+  }
+  
+  .order-items {
+    margin-top: 16px;
+  }
+  
